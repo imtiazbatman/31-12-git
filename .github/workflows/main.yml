@@ -1,0 +1,10 @@
+name: my-first-workfolow
+on: workflow_run
+jobs:
+ first-jobs:
+ runs-on: ubuntu-latest
+ stpes:
+  - name: Say-hello
+    run: echo "Hello Imtiaz"
+  - name: Say-Bye
+    run: echo "Bye Imtiaz"
