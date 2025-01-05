@@ -3,7 +3,7 @@ on: workflow_dispatch
 jobs:
  first-jobs:
  runs-on: ubuntu-latest
- stpes:
+ steps:
   - name: Say-hello
     run: echo "Hello Imtiaz"
   - name: Say-Bye
