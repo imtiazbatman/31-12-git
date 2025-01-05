@@ -2,9 +2,9 @@ name: my-first-workfolow
 on: workflow_dispatch
 jobs:
  first-jobs:
- runs-on: ubuntu-latest
- stpes:
+  runs-on: ubuntu-latest
+  steps:
   - name: Say-hello
     run: echo "Hello Imtiaz"
   - name: Say-Bye
-    run: echo "Bye Imtiaz"
+    run: echo "Bye Imtiazs"
