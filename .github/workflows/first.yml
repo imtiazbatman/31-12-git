@@ -2,8 +2,8 @@ name: my-first-workfolow
 on: workflow_dispatch
 jobs:
  first-jobs:
- runs-on: ubuntu-latest
- steps:
+  runs-on: macos-13
+  steps:
   - name: Say-hello
     run: echo "Hello Imtiaz"
   - name: Say-Bye
